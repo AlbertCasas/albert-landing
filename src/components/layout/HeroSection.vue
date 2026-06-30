@@ -105,4 +105,30 @@ p {
   color: var(--color-text);
   border-color: var(--color-text-muted);
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1.5rem 3rem;
+  }
+
+  h1 {
+    font-size: 36px;
+    letter-spacing: -1px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .hero-ctas {
+    flex-wrap: wrap;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+  }
+}
 </style>

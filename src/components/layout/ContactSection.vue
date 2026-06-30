@@ -71,4 +71,27 @@ p {
   color: var(--color-text);
   border-color: var(--color-border-strong);
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem 1.5rem;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .links {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .contact-btn {
+    flex: 1;
+    justify-content: center;
+    min-width: 90px;
+  }
+}
 </style>
