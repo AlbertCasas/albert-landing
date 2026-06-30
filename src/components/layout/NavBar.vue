@@ -1,10 +1,10 @@
 <template>
   <header class="nav">
-    <span class="nav-logo">albert<span class="dot">.</span></span>
+    <span class="nav-logo">AlbertCasas<span class="dot">.</span></span>
     <nav class="nav-links">
-      <a href="#proyectos">proyectos</a>
-      <a href="#sobre-mi">sobre mí</a>
-      <a href="#contacto">contacto</a>
+      <a href="#projects">projects</a>
+      <a href="#about-me">about me</a>
+      <a href="#contact">contact</a>
     </nav>
   </header>
 </template>
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 2rem;
+  padding: 1.75rem 3rem;
   border-bottom: 1px solid var(--color-border);
   position: sticky;
   top: 0;
@@ -24,9 +24,9 @@
 }
 
 .nav-logo {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.5px;
 }
 
 .dot {
@@ -35,11 +35,11 @@
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .nav-links a {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--color-text-secondary);
   transition: color 0.15s;
 }

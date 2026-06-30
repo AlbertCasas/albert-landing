@@ -5,23 +5,21 @@
   <section class="hero">
     <div class="hero-tag">
       <span class="dot"></span>
-      disponible para trabajar
+      open to work
     </div>
-    <h1>Frontend developer<br><span class="muted">& diseño que importa.</span></h1>
-    <p>Construyo interfaces limpias y funcionales con Vue 3. Me importa tanto el código como la experiencia de quien lo usa.</p>
+    <h1>Senior Frontend<br><span class="muted">Developer.</span></h1>
+<p>3+ years building scalable product features and reusable component systems. Deep expertise in Vue.js — from architecture to production.</p>
     <div class="hero-ctas">
-      <a href="#proyectos" class="btn-primary">ver proyectos</a>
-      <a href="/cv.pdf" class="btn-secondary" target="_blank">
-        descargar CV
-      </a>
+      <a href="#projects" class="btn-primary">View projects</a>
+      <a href="/cv.pdf" class="btn-secondary" target="_blank">Download CV</a>
     </div>
   </section>
 </template>
 
 <style scoped>
 .hero {
-  padding: 5rem 2rem 4rem;
-  max-width: 700px;
+  padding: 6rem 3rem 5rem;
+  max-width: 780px;
 }
 
 .hero-tag {
@@ -34,7 +32,7 @@
   border: 1px solid rgba(74, 222, 128, 0.2);
   border-radius: 20px;
   padding: 5px 14px;
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 .dot {
@@ -51,12 +49,12 @@
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 56px;
   font-weight: 500;
-  line-height: 1.15;
-  letter-spacing: -1.5px;
+  line-height: 1.1;
+  letter-spacing: -2px;
   color: var(--color-text);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .muted {
@@ -64,10 +62,11 @@ h1 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 17px;
   color: var(--color-text-secondary);
-  max-width: 460px;
-  margin-bottom: 2rem;
+  max-width: 480px;
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
 }
 
 .hero-ctas {
@@ -81,7 +80,7 @@ p {
   color: #0e0e0e;
   font-size: 13px;
   font-weight: 500;
-  padding: 10px 20px;
+  padding: 11px 22px;
   border-radius: var(--radius);
   transition: opacity 0.15s;
 }
@@ -97,7 +96,7 @@ p {
   font-size: 13px;
   color: var(--color-text-secondary);
   border: 1px solid var(--color-border-strong);
-  padding: 10px 20px;
+  padding: 11px 22px;
   border-radius: var(--radius);
   transition: color 0.15s, border-color 0.15s;
 }

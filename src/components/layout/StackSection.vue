@@ -2,14 +2,17 @@
   <section class="stack">
     <p class="label">stack</p>
     <div class="pills">
-      <span class="pill accent">Vue 3</span>
+      <span class="pill accent">Vue.js</span>
       <span class="pill accent">TypeScript</span>
+      <span class="pill accent">JavaScript</span>
+      <span class="pill accent">SCSS</span>
       <span class="pill">Pinia</span>
-      <span class="pill">Vite</span>
+      <span class="pill">Vuex</span>
       <span class="pill">FastAPI</span>
-      <span class="pill">Python</span>
-      <span class="pill">PostgreSQL</span>
+      <span class="pill">MySQL</span>
+      <span class="pill">REST APIs</span>
       <span class="pill">Git</span>
+      <span class="pill">Node.js</span>
     </div>
   </section>
 </template>

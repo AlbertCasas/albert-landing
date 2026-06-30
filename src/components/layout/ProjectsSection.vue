@@ -3,26 +3,26 @@ const projects = [
   {
     id: 1,
     title: 'wanderlog',
-    description: 'Planifica y organiza tus viajes. CRUD completo con autenticación y mapa interactivo de destinos.',
-    tags: ['Vue 3', 'FastAPI', 'PostgreSQL', 'fullstack'],
+    description: 'Plan and organize your trips. Full CRUD app with authentication, interactive destination map and travel stats.',
+    tags: ['Vue.js', 'FastAPI', 'MySQL', 'fullstack'],
     featured: true,
     emoji: '✈️',
     link: '#'
   },
   {
     id: 2,
-    title: 'componentes UI',
-    description: 'Librería de componentes reutilizables con animaciones y accesibilidad.',
-    tags: ['Vue 3', 'CSS'],
+    title: 'UI component library',
+    description: 'Reusable component system with animations, accessibility and full TypeScript support.',
+    tags: ['Vue.js', 'TypeScript', 'SCSS'],
     featured: false,
     emoji: '🧩',
     link: '#'
   },
   {
     id: 3,
-    title: 'dashboard analytics',
-    description: 'Visualización de datos en tiempo real con gráficas interactivas.',
-    tags: ['Vue 3', 'D3.js'],
+    title: 'analytics dashboard',
+    description: 'Real-time data visualization with interactive charts and filtering.',
+    tags: ['Vue.js', 'D3.js', 'REST API'],
     featured: false,
     emoji: '📊',
     link: '#'
@@ -31,9 +31,9 @@ const projects = [
 </script>
 
 <template>
-  <section class="projects" id="proyectos">
+  <section class="projects" id="projects">
     <div class="section-header">
-      <p class="label">proyectos seleccionados</p>
+      <p class="label">selected projects</p>
     </div>
 
     <div class="grid">
@@ -46,7 +46,7 @@ const projects = [
       >
         <div class="card-top">
           <span class="emoji">{{ project.emoji }}</span>
-          <span v-if="project.featured" class="badge">destacado</span>
+          <span v-if="project.featured" class="badge">featured</span>
         </div>
         <h3>{{ project.title }}</h3>
         <p>{{ project.description }}</p>
