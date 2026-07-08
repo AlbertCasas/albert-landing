@@ -7,7 +7,7 @@ const projects = [
     tags: ['Vue.js', 'FastAPI', 'MySQL', 'fullstack'],
     featured: true,
     emoji: '✈️',
-    link: '#'
+    link: 'https://wanderlog-frontend-seven.vercel.app'
   },
   {
     id: 2,
