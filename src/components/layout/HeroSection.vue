@@ -11,7 +11,7 @@
 <p>3+ years building scalable product features and reusable component systems. Deep expertise in Vue.js — from architecture to production.</p>
     <div class="hero-ctas">
       <a href="#projects" class="btn-primary">View projects</a>
-      <a href="/cv.pdf" class="btn-secondary" target="_blank">Download CV</a>
+      <a href="./cv.pdf" class="btn-secondary" target="_blank">Download CV</a>
     </div>
   </section>
 </template>
