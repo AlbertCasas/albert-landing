@@ -1,10 +1,16 @@
+<script setup lang="ts">
+function scrollTo(id: string) {
+  const el = document.getElementById(id)
+  if (el) el.scrollIntoView({ behavior: 'smooth' })
+}
+</script>
+
 <template>
   <header class="nav">
     <span class="nav-logo">AlbertCasas<span class="dot">.</span></span>
     <nav class="nav-links">
-      <a href="#projects">projects</a>
-      <a href="#about-me">about me</a>
-      <a href="#contact">contact</a>
+      <a @click.prevent="scrollTo('projects')">projects</a>
+      <a @click.prevent="scrollTo('contact')">contact</a>
     </nav>
   </header>
 </template>
@@ -42,6 +48,7 @@
   font-size: 16px;
   color: var(--color-text-secondary);
   transition: color 0.15s;
+  cursor: pointer;
 }
 
 .nav-links a:hover {
