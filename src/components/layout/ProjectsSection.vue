@@ -28,6 +28,12 @@ const projects = [
     link: '#'
   }
 ]
+
+function openProject(link: string) {
+  if (link !== '#') {
+    window.open(link, '_blank')
+  }
+}
 </script>
 
 <template>
@@ -42,7 +48,7 @@ const projects = [
         :key="project.id"
         class="card"
         :class="{ featured: project.featured }"
-        @click="() => project.link !== '#' && window.open(project.link)"
+        @click="openProject(project.link)"
       >
         <div class="card-top">
           <span class="emoji">{{ project.emoji }}</span>
